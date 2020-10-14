@@ -1,0 +1,5 @@
+// Controllers
+Responsables de manejar las peticiones y devolver las respuestas a los clientes.
+Van ligados a un path específico (por ejemplo "/tasks" para las tareas).
+Contiene controladores (handlers) los cuales manejan endpoints y peticiones GET, POST, DELETE...
+Se beneficia de la inyección de dependencia para consumir providers dentro del mismo módulo.
