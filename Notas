@@ -6,3 +6,5 @@ Se beneficia de la inyección de dependencia para consumir providers dentro del 
 
 No todos los providers son servicios!
 @Injectable hace el servicio singleton. La misma instancia será compartida en la aplicación.
+
+Si usas where machacas cualquier condición anterior, por ello usamos andWhere. where sería útil para sobrescribir según condición.
